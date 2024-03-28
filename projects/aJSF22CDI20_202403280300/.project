@@ -3,6 +3,7 @@
 	<name>aJSF22CDI20_202403280300</name>
 	<comment></comment>
 	<projects>
+		<project>aJPA22_202403270735</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

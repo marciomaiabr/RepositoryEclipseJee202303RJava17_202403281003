@@ -5,6 +5,9 @@ import java.io.Serializable;
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 import javax.inject.Named;
+
+import aJPA22_202403270735.pkgs.utils.JPAUtil;
+
 import javax.faces.view.ViewScoped;
 
 @Named
@@ -32,6 +35,7 @@ public class Teste01Controller implements Serializable {
 
 	public void method01() {
 		System.out.println("Teste01Controller.method01()[" + (this) + "]");
+		System.out.println("[" + (JPAUtil.criaEntityManagerFactoryWithCreateNone()) + "]");
 	}
 
 	@PreDestroy

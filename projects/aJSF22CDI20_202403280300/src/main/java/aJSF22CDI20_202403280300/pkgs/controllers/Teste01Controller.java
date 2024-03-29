@@ -40,7 +40,7 @@ public class Teste01Controller implements Serializable {
 		Pessoa pessoa = null;
 		System.out.println("[pessoa=" + (pessoa) + "]");
 
-		System.out.println("[" + (JPAUtil.criaEntityManagerFactoryWithCreateNone()) + "]");
+		System.out.println("[" + (JPAUtil.criaEntityManagerFactoryWithCreateCreate()) + "]");
 	}
 
 	@PreDestroy

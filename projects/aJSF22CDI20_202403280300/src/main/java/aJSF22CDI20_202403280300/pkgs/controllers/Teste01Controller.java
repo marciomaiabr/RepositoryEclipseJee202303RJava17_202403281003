@@ -7,6 +7,7 @@ import javax.annotation.PreDestroy;
 import javax.inject.Named;
 
 import aJPA22_202403270735.pkgs.utils.JPAUtil;
+import aModelsJPA22_202403290320.pkgs.models.Pessoa;
 
 import javax.faces.view.ViewScoped;
 
@@ -35,6 +36,10 @@ public class Teste01Controller implements Serializable {
 
 	public void method01() {
 		System.out.println("Teste01Controller.method01()[" + (this) + "]");
+
+		Pessoa pessoa = null;
+		System.out.println("[pessoa=" + (pessoa) + "]");
+
 		System.out.println("[" + (JPAUtil.criaEntityManagerFactoryWithCreateNone()) + "]");
 	}
 

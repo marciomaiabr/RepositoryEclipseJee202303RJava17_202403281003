@@ -3,5 +3,18 @@
 	<persistence-unit name="PU_JPA22_202403270735">
 		<class>aModelsJPA22_202403290320.pkgs.models.Pessoa</class>
 		<exclude-unlisted-classes>true</exclude-unlisted-classes>
+		<properties>
+			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect"/>
+			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://127.0.0.1:3306/scma_jpa22_202403270735"/>
+			<property name="javax.persistence.jdbc.user" value="java"/>
+			<property name="javax.persistence.jdbc.password" value="java"/>
+			<property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+			<property name="hibernate.show_sql" value="true"/>
+			<property name="hibernate.format_sql" value="true"/>
+			<property name="use_sql_comments" value="true"/>
+			<!--<property name="javax.persistence.schema-generation.database.action" value="create"/>-->
+			<property name="hibernate.hbm2ddl.auto" value="update"/>
+			<property name="hibernate.archive.autodetection" value="class"/>
+		</properties>
 	</persistence-unit>
 </persistence>

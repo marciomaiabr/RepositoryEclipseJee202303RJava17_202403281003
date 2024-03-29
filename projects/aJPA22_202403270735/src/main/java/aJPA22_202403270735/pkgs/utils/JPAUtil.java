@@ -50,4 +50,12 @@ public class JPAUtil {
 		return emf;
 	}
 
+	public static EntityManagerFactory criaEntityManagerFactoryWithFromPersistenceUnit() {
+		EntityManagerFactory emf = null;
+
+		emf = Persistence.createEntityManagerFactory("PU_JPA22_202403270735");
+
+		return emf;
+	}
+
 }

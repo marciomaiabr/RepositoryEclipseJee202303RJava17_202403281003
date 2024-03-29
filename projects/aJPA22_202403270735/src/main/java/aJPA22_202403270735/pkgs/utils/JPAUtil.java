@@ -31,4 +31,23 @@ public class JPAUtil {
 		return emf;
 	}
 
+	public static EntityManagerFactory criaEntityManagerFactoryWithCreateCreate() {
+		EntityManagerFactory emf = null;
+
+		Map<String, String> map = new HashMap<String, String>();
+		map.put("hibernate.dialect", "org.hibernate.dialect.MySQL5Dialect");
+		map.put("javax.persistence.jdbc.url", url);
+		map.put("javax.persistence.jdbc.user", username);
+		map.put("javax.persistence.jdbc.password", password);
+		map.put("javax.persistence.jdbc.driver", "com.mysql.cj.jdbc.Driver");
+		map.put("hibernate.show_sql", "true");
+		map.put("hibernate.format_sql", "true");
+		map.put("use_sql_comments", "true");
+		map.put("hibernate.hbm2ddl.auto", "create");
+		map.put("hibernate.archive.autodetection", "class");
+		emf = Persistence.createEntityManagerFactory("PU_JPA22_202403270735", map);
+
+		return emf;
+	}
+
 }

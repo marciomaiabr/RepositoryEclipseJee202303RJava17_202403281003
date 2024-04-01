@@ -4,7 +4,7 @@ import java.util.List;
 
 import aModelsJPA22_202403290320.pkgs.models.Pessoa;
 
-public interface Pessoas {
+public interface PessoasSpec {
 
 	Pessoa save(Pessoa pessoa);
 	Pessoa get(Integer id);

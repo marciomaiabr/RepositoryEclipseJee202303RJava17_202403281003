@@ -8,7 +8,7 @@ import javax.faces.view.ViewScoped;
 import javax.inject.Inject;
 import javax.inject.Named;
 
-import aRepositoriesSpec202404010931.pkgs.repositories.specifications.PessoasSpec;
+import aServicesSpec202404011523.pkgs.services.specifications.PessoasServiceSpec;
 
 @Named
 @ViewScoped
@@ -17,7 +17,7 @@ public class Teste01Controller implements Serializable {
 	private static final long serialVersionUID = 20240328032700L;
 
 	@Inject
-	private PessoasSpec pessoas;
+	private PessoasServiceSpec pessoas;
 
 	static {
 		System.out.println("Teste01Controller.static");
@@ -38,7 +38,7 @@ public class Teste01Controller implements Serializable {
 
 	public void method01() {
 		System.out.println("Teste01Controller.method01()[" + (this) + "][pessoas=" + (pessoas) + "]");
-		pessoas.list().forEach(System.out::println);
+		pessoas.listar().forEach(System.out::println);
 	}
 
 	@PreDestroy

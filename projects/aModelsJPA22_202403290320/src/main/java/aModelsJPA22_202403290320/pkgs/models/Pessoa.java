@@ -14,14 +14,23 @@ public class Pessoa {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
 	private String nome;
+	private String sobreNome;
 
 	public Pessoa() {
 		super();
 	}
 
-	public Pessoa(String nome) {
+	public Pessoa(String nome, String sobreNome) {
 		super();
 		this.nome = nome;
+		this.sobreNome = sobreNome;
+	}
+
+	public Pessoa(Integer id, String nome, String sobreNome) {
+		super();
+		this.id = id;
+		this.nome = nome;
+		this.sobreNome = sobreNome;
 	}
 
 	public Integer getId() {
@@ -40,9 +49,17 @@ public class Pessoa {
 		this.nome = nome;
 	}
 
+	public String getSobreNome() {
+		return sobreNome;
+	}
+
+	public void setSobreNome(String sobreNome) {
+		this.sobreNome = sobreNome;
+	}
+
 	@Override
 	public String toString() {
-		return "Pessoa [id=" + id + ", nome=" + nome + "]";
+		return "Pessoa [id=" + id + ", nome=" + nome + ", sobreNome=" + sobreNome + "]";
 	}
 
 	@Override

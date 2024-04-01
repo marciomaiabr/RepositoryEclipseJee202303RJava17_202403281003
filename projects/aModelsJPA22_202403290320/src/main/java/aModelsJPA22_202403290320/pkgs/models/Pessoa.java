@@ -47,7 +47,7 @@ public class Pessoa {
 
 	@Override
 	public int hashCode() {
-		return Objects.hash(id, nome);
+		return Objects.hash(id);
 	}
 
 	@Override
@@ -59,7 +59,7 @@ public class Pessoa {
 		if (getClass() != obj.getClass())
 			return false;
 		Pessoa other = (Pessoa) obj;
-		return Objects.equals(id, other.id) && Objects.equals(nome, other.nome);
+		return Objects.equals(id, other.id);
 	}
 
 }

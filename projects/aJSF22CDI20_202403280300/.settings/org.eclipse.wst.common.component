@@ -41,6 +41,9 @@
         <dependent-module archiveName="aRepositoriesSpec202404010931.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/aRepositoriesSpec202404010931/aRepositoriesSpec202404010931">
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="aRepositoriesImpl02404010958.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/aRepositoriesImpl02404010958/aRepositoriesImpl02404010958">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
                                 
         
         

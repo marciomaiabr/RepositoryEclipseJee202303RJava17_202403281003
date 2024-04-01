@@ -1,31 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-                
+                    
+    
     
     
     <wb-module deploy-name="aJSF22CDI20_202403280300">
-                                
+                                        
+        
         
         
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
-                                
+                                        
+        
         
         
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
-                                
+                                        
+        
         
         
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
-                                
+                                        
+        
         
         
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
-                                
+                                        
+        
         
         
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/resources"/>
-                        
+                                
+        
         
         <dependent-module archiveName="aJPA22_202403270735.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/aJPA22_202403270735/aJPA22_202403270735">
+                                                
+            
+            
+            <dependency-type>uses</dependency-type>
+                                            
+        
+        
+        </dependent-module>
+                        
+        
+        <dependent-module archiveName="aModelsJPA22_202403290320.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/aModelsJPA22_202403290320/aModelsJPA22_202403290320">
                                     
             
             <dependency-type>uses</dependency-type>
@@ -33,30 +51,37 @@
         
         </dependent-module>
                 
-        <dependent-module archiveName="aModelsJPA22_202403290320.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/aModelsJPA22_202403290320/aModelsJPA22_202403290320">
+        <dependent-module archiveName="aRepositoriesSpec202404010931.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/aRepositoriesSpec202404010931/aRepositoriesSpec202404010931">
                         
             <dependency-type>uses</dependency-type>
                     
         </dependent-module>
-        <dependent-module archiveName="aRepositoriesSpec202404010931.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/aRepositoriesSpec202404010931/aRepositoriesSpec202404010931">
-            <dependency-type>uses</dependency-type>
-        </dependent-module>
+                
         <dependent-module archiveName="aRepositoriesImpl02404010958.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/aRepositoriesImpl02404010958/aRepositoriesImpl02404010958">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+        <dependent-module archiveName="aServicesSpec202404011523.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/aServicesSpec202404011523/aServicesSpec202404011523">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-                                
+                                        
+        
         
         
         <property name="context-root" value="aJSF22CDI20_202403280300"/>
-                                
+                                        
+        
         
         
         <property name="java-output-path" value="/aJSF22CDI20_202403280300/target/classes"/>
-                            
+                                    
+    
     
     
     </wb-module>
-            
+                
+
 
 
 </project-modules>

@@ -1,5 +1,6 @@
 package aRepositoriesImpl02404010958.pkgs.repositories.implementations;
 
+import java.io.Serializable;
 import java.util.List;
 
 import javax.persistence.EntityManager;
@@ -7,7 +8,9 @@ import javax.persistence.EntityManager;
 import aModelsJPA22_202403290320.pkgs.models.Pessoa;
 import aRepositoriesSpec202404010931.pkgs.repositories.specifications.PessoasSpec;
 
-public class PessoasImpl implements PessoasSpec {
+public class PessoasImpl implements Serializable, PessoasSpec {
+
+	private static final long serialVersionUID = 20240328032700L;
 
 	private EntityManager em;
 

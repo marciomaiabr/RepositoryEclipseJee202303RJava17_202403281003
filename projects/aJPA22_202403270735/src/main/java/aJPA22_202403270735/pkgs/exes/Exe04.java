@@ -1,6 +1,3 @@
-/*
-teste de acesso
-*/
 package aJPA22_202403270735.pkgs.exes;
 
 import javax.persistence.EntityManager;
@@ -8,8 +5,9 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 
 import aJPA22_202403270735.pkgs.utils.JPAUtil;
+import aModelsJPA22_202403290320.pkgs.models.Pessoa;
 
-public class Exe01 {
+public class Exe04 {
 
 	public static void main(String[] args) {
 		EntityManagerFactory emf = null;
@@ -17,7 +15,7 @@ public class Exe01 {
 		EntityTransaction et = null;
 
 		try {
-			emf = JPAUtil.criaEntityManagerFactoryWithCreateNone();
+			emf = JPAUtil.criaEntityManagerFactory();
 			System.out.println("[emf=" + (emf) + "]");
 
 			em = emf.createEntityManager();
@@ -27,6 +25,8 @@ public class Exe01 {
 			System.out.println("[et=" + (et) + "]");
 
 			et.begin();
+
+			em.persist(new Pessoa("Ciclano " + java.time.LocalDate.now(), "Reis " + java.time.LocalTime.now()));
 
 			et.commit();
 		} catch (Exception e) {

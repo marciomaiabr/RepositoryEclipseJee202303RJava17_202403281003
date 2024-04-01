@@ -12,9 +12,10 @@
 			<property name="hibernate.show_sql" value="true"/>
 			<property name="hibernate.format_sql" value="true"/>
 			<property name="use_sql_comments" value="true"/>
-			<property name="javax.persistence.schema-generation.database.action" value="create"/>
-			<!--<property name="hibernate.hbm2ddl.auto" value="update"/>-->
+			<!--<property name="javax.persistence.schema-generation.database.action" value="create"/>-->
+			<property name="hibernate.hbm2ddl.auto" value="update"/>
 			<property name="hibernate.archive.autodetection" value="class"/>
+			<property name="jboss.as.jpa.managed" value="false" />
 		</properties>
 	</persistence-unit>
 </persistence>

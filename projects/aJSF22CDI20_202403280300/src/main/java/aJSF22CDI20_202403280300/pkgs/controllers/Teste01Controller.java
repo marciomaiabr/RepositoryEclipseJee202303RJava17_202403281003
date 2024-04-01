@@ -55,7 +55,7 @@ public class Teste01Controller implements Serializable {
 
 			et.begin();
 
-			Pessoa pessoa = new Pessoa("Fulano");
+			Pessoa pessoa = new Pessoa("Fulano", "Silva");
 			em.merge(pessoa);
 
 			et.commit();

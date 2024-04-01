@@ -8,6 +8,7 @@
 		<project>aRepositoriesSpec202404010931</project>
 		<project>aRepositoriesImpl02404010958</project>
 		<project>aServicesSpec202404011523</project>
+		<project>aServicesImpl202404011548</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

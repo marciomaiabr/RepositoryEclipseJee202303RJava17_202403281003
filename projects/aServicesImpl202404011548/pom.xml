@@ -18,6 +18,11 @@
 			<artifactId>aModelsJPA22_202403290320</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+		<dependency>
+			<groupId>gRepositoriesSpec202404010931</groupId>
+			<artifactId>aRepositoriesSpec202404010931</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 
 </project>

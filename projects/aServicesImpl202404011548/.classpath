@@ -36,8 +36,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/aRepositoriesImpl02404010958"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/aRepositoriesSpec202404010931"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/aServicesSpec202404011523"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

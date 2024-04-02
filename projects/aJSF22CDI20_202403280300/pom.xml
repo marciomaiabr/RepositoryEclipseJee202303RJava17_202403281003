@@ -33,7 +33,7 @@
 		</dependency>
 		-->
 
-		<!--disable to run in wildfly-->
+		<!--disable to run in tomcat-->
 		<dependency>
 			<groupId>javax.enterprise</groupId>
 			<artifactId>cdi-api</artifactId>

@@ -39,6 +39,5 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/aRepositoriesImpl02404010958"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/aRepositoriesSpec202404010931"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/aServicesSpec202404011523"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/aModelsJPA22_202403290320"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

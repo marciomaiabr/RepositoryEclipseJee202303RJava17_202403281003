@@ -31,3 +31,7 @@ public class PessoaRest {
 	}
 
 }
+
+/*
+http://localhost:8080/aWsREST_202404020829/rest/pessoaRS/9
+*/

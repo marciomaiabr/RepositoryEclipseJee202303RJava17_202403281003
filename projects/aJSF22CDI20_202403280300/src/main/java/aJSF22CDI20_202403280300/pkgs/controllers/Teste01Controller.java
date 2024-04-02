@@ -39,7 +39,9 @@ public class Teste01Controller implements Serializable {
 	}
 
 	public void method01() {
-		System.out.println("Teste01Controller.method01()[" + (this) + "][pessoas=" + (pessoas) + "][pessoa=" + (pessoa) + "]");
+		System.out.println("Teste01Controller.method01()[" + (this) + "]");
+		System.out.println("[pessoas=" + (pessoas) + "]");
+		System.out.println("[pessoa=" + (pessoa) + "]");
 		pessoas.listar().forEach(System.out::println);
 	}
 

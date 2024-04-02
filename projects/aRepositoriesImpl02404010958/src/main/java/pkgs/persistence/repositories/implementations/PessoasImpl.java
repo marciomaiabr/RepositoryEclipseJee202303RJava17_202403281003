@@ -1,12 +1,12 @@
-package aRepositoriesImpl02404010958.pkgs.repositories.implementations;
+package pkgs.persistence.repositories.implementations;
 
 import java.io.Serializable;
 import java.util.List;
 
 import javax.persistence.EntityManager;
 
-import aRepositoriesSpec202404010931.pkgs.repositories.specifications.PessoasSpec;
 import pkgs.persistence.models.Pessoa;
+import pkgs.persistence.repositories.specifications.PessoasSpec;
 
 public class PessoasImpl implements Serializable, PessoasSpec {
 

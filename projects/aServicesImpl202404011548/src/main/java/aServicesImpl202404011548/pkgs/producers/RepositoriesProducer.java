@@ -7,8 +7,8 @@ import javax.enterprise.inject.Produces;
 import javax.inject.Inject;
 import javax.persistence.EntityManager;
 
-import aRepositoriesImpl02404010958.pkgs.repositories.implementations.PessoasImpl;
-import aRepositoriesSpec202404010931.pkgs.repositories.specifications.PessoasSpec;
+import pkgs.persistence.repositories.implementations.PessoasImpl;
+import pkgs.persistence.repositories.specifications.PessoasSpec;
 
 @RequestScoped
 public class RepositoriesProducer implements Serializable {

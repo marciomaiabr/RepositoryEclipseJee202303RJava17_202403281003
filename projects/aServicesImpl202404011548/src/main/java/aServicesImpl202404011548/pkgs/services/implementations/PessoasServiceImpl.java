@@ -5,9 +5,9 @@ import java.util.List;
 
 import javax.inject.Inject;
 
-import aRepositoriesSpec202404010931.pkgs.repositories.specifications.PessoasSpec;
 import aServicesSpec202404011523.pkgs.services.specifications.PessoasServiceSpec;
 import pkgs.persistence.models.Pessoa;
+import pkgs.persistence.repositories.specifications.PessoasSpec;
 
 public class PessoasServiceImpl implements Serializable, PessoasServiceSpec {
 

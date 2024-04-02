@@ -1,4 +1,4 @@
-package aRepositoriesSpec202404010931.pkgs.repositories.specifications;
+package pkgs.persistence.repositories.specifications;
 
 import java.util.List;
 

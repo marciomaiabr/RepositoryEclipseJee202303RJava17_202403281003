@@ -8,8 +8,8 @@ import javax.faces.view.ViewScoped;
 import javax.inject.Inject;
 import javax.inject.Named;
 
-import aModelsJPA22_202403290320.pkgs.models.Pessoa;
 import aServicesSpec202404011523.pkgs.services.specifications.PessoasServiceSpec;
+import pkgs.persistence.models.Pessoa;
 
 @Named
 @ViewScoped

@@ -5,7 +5,7 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 
 import aJPA22_202403270735.pkgs.utils.JPAUtil;
-import aModelsJPA22_202403290320.pkgs.models.Pessoa;
+import pkgs.persistence.models.Pessoa;
 
 public class Exe04 {
 

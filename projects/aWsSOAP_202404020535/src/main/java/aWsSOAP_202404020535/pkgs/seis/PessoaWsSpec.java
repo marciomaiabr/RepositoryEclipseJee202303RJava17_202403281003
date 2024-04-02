@@ -7,7 +7,7 @@ import javax.jws.WebService;
 import javax.jws.soap.SOAPBinding;
 import javax.jws.soap.SOAPBinding.Style;
 
-import aModelsJPA22_202403290320.pkgs.models.Pessoa;
+import pkgs.persistence.models.Pessoa;
 
 @WebService
 @SOAPBinding(style = Style.RPC)

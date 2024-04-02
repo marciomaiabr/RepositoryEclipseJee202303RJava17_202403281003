@@ -5,8 +5,8 @@ import java.util.List;
 
 import javax.persistence.EntityManager;
 
-import aModelsJPA22_202403290320.pkgs.models.Pessoa;
 import aRepositoriesSpec202404010931.pkgs.repositories.specifications.PessoasSpec;
+import pkgs.persistence.models.Pessoa;
 
 public class PessoasImpl implements Serializable, PessoasSpec {
 

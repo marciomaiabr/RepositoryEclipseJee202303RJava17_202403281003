@@ -5,9 +5,9 @@ import java.util.List;
 import javax.inject.Inject;
 import javax.jws.WebService;
 
-import aModelsJPA22_202403290320.pkgs.models.Pessoa;
 import aServicesSpec202404011523.pkgs.services.specifications.PessoasServiceSpec;
 import aWsSOAP_202404020535.pkgs.seis.PessoaWsSpec;
+import pkgs.persistence.models.Pessoa;
 
 @WebService(endpointInterface = "aWsSOAP_202404020535.pkgs.seis.PessoaWsSpec")
 public class PessoaWsImpl implements PessoaWsSpec {

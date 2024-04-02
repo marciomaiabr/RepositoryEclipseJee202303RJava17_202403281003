@@ -1,4 +1,4 @@
-package aModelsJPA22_202403290320.pkgs.models;
+package pkgs.persistence.models;
 
 import java.util.Objects;
 

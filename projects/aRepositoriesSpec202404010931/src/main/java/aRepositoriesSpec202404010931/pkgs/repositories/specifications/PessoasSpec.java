@@ -2,7 +2,7 @@ package aRepositoriesSpec202404010931.pkgs.repositories.specifications;
 
 import java.util.List;
 
-import aModelsJPA22_202403290320.pkgs.models.Pessoa;
+import pkgs.persistence.models.Pessoa;
 
 public interface PessoasSpec {
 

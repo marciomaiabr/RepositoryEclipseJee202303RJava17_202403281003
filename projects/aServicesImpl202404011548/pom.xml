@@ -1,8 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>g</groupId>
-  <artifactId>a</artifactId>
+
+  <groupId>gServicesImpl202404011548</groupId>
+  <artifactId>aServicesImpl202404011548</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <name>nServicesImpl202404011548</name>
+  <description>dServicesImpl202404011548</description>
 
 	<dependencies>
 
@@ -21,6 +24,21 @@
 		<dependency>
 			<groupId>gRepositoriesSpec202404010931</groupId>
 			<artifactId>aRepositoriesSpec202404010931</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>gServicesSpec202404011523</groupId>
+			<artifactId>aServicesSpec202404011523</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>gJPA22_202403270735</groupId>
+			<artifactId>aJPA22_202403270735</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>gRepositoriesImpl02404010958</groupId>
+			<artifactId>aRepositoriesImpl02404010958</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>

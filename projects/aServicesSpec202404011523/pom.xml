@@ -1,8 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>g</groupId>
-  <artifactId>a</artifactId>
+
+  <groupId>gServicesSpec202404011523</groupId>
+  <artifactId>aServicesSpec202404011523</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <name>nServicesSpec202404011523</name>
+  <description>dServicesSpec202404011523</description>
 
 	<dependencies>
 

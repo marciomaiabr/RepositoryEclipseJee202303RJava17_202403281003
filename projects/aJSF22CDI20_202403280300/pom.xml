@@ -42,16 +42,21 @@
 		</dependency>
 
 		<dependency>
-			<groupId>javax.persistence</groupId>
-			<artifactId>javax.persistence-api</artifactId>
-			<version>2.2</version>
-		</dependency>
-
-		<dependency>
 			<groupId>gModelsJPA22_202403290320</groupId>
 			<artifactId>aModelsJPA22_202403290320</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+		<dependency>
+			<groupId>gServicesSpec202404011523</groupId>
+			<artifactId>aServicesSpec202404011523</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>gServicesImpl202404011548</groupId>
+			<artifactId>aServicesImpl202404011548</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
 	</dependencies>
 
 </project>

@@ -42,6 +42,12 @@
 			<artifactId>aServicesSpec202404011523</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+		<dependency>
+			<groupId>gServicesImpl202404011548</groupId>
+			<artifactId>aServicesImpl202404011548</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
 	</dependencies>
 
 </project>

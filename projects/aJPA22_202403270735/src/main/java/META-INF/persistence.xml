@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <persistence version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+
 	<persistence-unit name="PU_JPA22_202403270735">
+
+		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+		<non-jta-data-source>java:comp/env/jdbc/Resource_jpa22_202403270735</non-jta-data-source>
+
 		<class>pkgs.persistence.models.Pessoa</class>
 		<exclude-unlisted-classes>true</exclude-unlisted-classes>
+
 		<properties>
 			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect"/>
-			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://127.0.0.1:3306/scma_jpa22_202403270735"/>
-			<property name="javax.persistence.jdbc.user" value="java"/>
-			<property name="javax.persistence.jdbc.password" value="java"/>
-			<property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
 			<property name="hibernate.show_sql" value="true"/>
 			<property name="hibernate.format_sql" value="true"/>
 			<property name="use_sql_comments" value="true"/>
@@ -17,5 +19,7 @@
 			<property name="hibernate.archive.autodetection" value="class"/>
 			<property name="jboss.as.jpa.managed" value="false" />
 		</properties>
+
 	</persistence-unit>
+
 </persistence>

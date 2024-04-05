@@ -1,4 +1,4 @@
-package com.mm.servingwebcontent;
+package com.mm.mvc.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import com.mm.beans.specifications.Bean01Spec;
 
 @Controller
-public class GreetingController {
+public class Teste01Controller {
 
 	@Autowired
 	private Bean01Spec bean01Spec;
@@ -17,7 +17,7 @@ public class GreetingController {
 	@GetMapping("/greeting")
 	public String greeting(@RequestParam(name = "name", required = false, defaultValue = "World") String name,
 			Model model) {
-		System.out.println("GreetingController.greeting()");
+		System.out.println("Teste01Controller.greeting()");
 		System.out.println("[bean01Spec=" + (bean01Spec) + "]");
 		// System.out.println("[bean01Spec.getNome()=" + (bean01Spec.getNome()) + "]");
 		model.addAttribute("name", name);

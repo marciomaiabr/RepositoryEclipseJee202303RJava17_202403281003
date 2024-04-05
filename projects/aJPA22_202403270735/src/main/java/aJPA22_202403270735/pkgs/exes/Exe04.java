@@ -4,8 +4,9 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 
+import com.mm.models.implementations.Pessoa;
+
 import aJPA22_202403270735.pkgs.utils.JPAUtil;
-import pkgs.persistence.models.Pessoa;
 
 public class Exe04 {
 
@@ -15,7 +16,7 @@ public class Exe04 {
 		EntityTransaction et = null;
 
 		try {
-			emf = JPAUtil.criaEntityManagerFactory();
+			emf = JPAUtil.criaEntityManagerFactory("PU_NODS_JPA22_202403270735");
 			System.out.println("[emf=" + (emf) + "]");
 
 			em = emf.createEntityManager();

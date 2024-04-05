@@ -1,0 +1,45 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>gSpringRepository_202404051423</groupId>
+	<artifactId>aSpringRepository_202404051423</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>nSpringRepository_202404051423</name>
+	<description>dSpringRepository_202404051423</description>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>javax.persistence</groupId>
+			<artifactId>javax.persistence-api</artifactId>
+			<version>2.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>gJPA22_202403270735</groupId>
+			<artifactId>aJPA22_202403270735</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<groupId>gModelsSpecifications_202404051154</groupId>
+			<artifactId>aModelsSpecifications_202404051154</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>gModelsJPA_202404051240</groupId>
+			<artifactId>aModelsJPA_202404051240</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-jpa</artifactId>
+			<version>2.7.18</version>
+		</dependency>
+
+	</dependencies>
+
+</project>

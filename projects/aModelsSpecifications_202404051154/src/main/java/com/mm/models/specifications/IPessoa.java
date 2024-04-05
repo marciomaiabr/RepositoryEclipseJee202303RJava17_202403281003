@@ -1,6 +1,6 @@
 package com.mm.models.specifications;
 
-public interface Pessoa {
+public interface IPessoa {
 
 	Integer getId();
 	Integer setId(Integer id);

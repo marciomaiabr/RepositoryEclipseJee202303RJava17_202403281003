@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>gModelsJPA_202404051240</groupId>
+  <artifactId>aModelsJPA_202404051240</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>nModelsJPA_202404051240</name>
+  <description>dModelsJPA_202404051240</description>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>javax.persistence</groupId>
+			<artifactId>javax.persistence-api</artifactId>
+			<version>2.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>gModelsSpecifications_202404051154</groupId>
+			<artifactId>aModelsSpecifications_202404051154</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+	</dependencies>
+
+</project>

@@ -1,9 +1,9 @@
-package com.example.beans.implementations;
+package com.mm.beans.implementations;
 
 import org.springframework.stereotype.Component;
 
 @Component
-public class Bean01Spec01Impl implements com.example.beans.specifications.Bean01Spec {
+public class Bean01Spec01Impl implements com.mm.beans.specifications.Bean01Spec {
 
 	@Override
 	public String getNome() {

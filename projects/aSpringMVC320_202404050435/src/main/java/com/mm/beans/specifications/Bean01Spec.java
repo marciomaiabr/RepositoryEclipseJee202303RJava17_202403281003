@@ -1,4 +1,4 @@
-package com.example.beans.specifications;
+package com.mm.beans.specifications;
 
 public interface Bean01Spec {
 

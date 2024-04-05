@@ -29,8 +29,8 @@
 		</dependency>
 
 		<dependency>
-			<groupId>gModelsJPA22_202403290320</groupId>
-			<artifactId>aModelsJPA22_202403290320</artifactId>
+			<groupId>gModelsJPA_202404051240</groupId>
+			<artifactId>aModelsJPA_202404051240</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>

@@ -3,10 +3,10 @@ package com.mm.models.specifications;
 public interface IPessoa {
 
 	Integer getId();
-	Integer setId(Integer id);
+	void setId(Integer id);
 	String getNome();
-	String setNome(String nome);
+	void setNome(String nome);
 	String getSobreNome();
-	String setSobreNome(String sobreNome);
+	void setSobreNome(String sobreNome);
 
 }

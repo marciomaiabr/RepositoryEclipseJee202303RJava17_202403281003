@@ -5,10 +5,10 @@ import javax.persistence.Persistence;
 
 public class JPAUtil {
 
-	public static EntityManagerFactory criaEntityManagerFactory() {
+	public static EntityManagerFactory criaEntityManagerFactory(String persistenceUnitName) {
 		EntityManagerFactory emf = null;
 
-		emf = Persistence.createEntityManagerFactory("PU_JPA22_202403270735");
+		emf = Persistence.createEntityManagerFactory(persistenceUnitName);
 
 		return emf;
 	}

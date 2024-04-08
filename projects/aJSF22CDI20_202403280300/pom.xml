@@ -42,10 +42,22 @@
 		-->
 
 		<dependency>
-			<groupId>gModelsJPA22_202403290320</groupId>
-			<artifactId>aModelsJPA22_202403290320</artifactId>
+			<groupId>gModelsJPA_202404051240</groupId>
+			<artifactId>aModelsJPA_202404051240</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+
+		<dependency>
+			<groupId>gRepositoriesSpec202404010931</groupId>
+			<artifactId>aRepositoriesSpec202404010931</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>gRepositoriesImpl02404010958</groupId>
+			<artifactId>aRepositoriesImpl02404010958</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
 		<dependency>
 			<groupId>gServicesSpec202404011523</groupId>
 			<artifactId>aServicesSpec202404011523</artifactId>

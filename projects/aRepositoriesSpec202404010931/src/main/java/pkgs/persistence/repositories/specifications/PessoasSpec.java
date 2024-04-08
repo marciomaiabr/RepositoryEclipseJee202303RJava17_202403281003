@@ -2,10 +2,10 @@ package pkgs.persistence.repositories.specifications;
 
 import java.util.List;
 
-import com.mm.models.implementations.Pessoa;
+import com.mm.models.specifications.IPessoa;
 
-public interface PessoasSpec extends BaseRepository<Pessoa> {
+public interface PessoasSpec extends BaseRepository<IPessoa> {
 
-	List<Pessoa> listByNome(String nome);
+	List<IPessoa> listByNome(String nome);
 
 }

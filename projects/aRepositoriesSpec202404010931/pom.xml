@@ -10,8 +10,8 @@
 	<dependencies>
 
 		<dependency>
-			<groupId>gModelsJPA_202404051240</groupId>
-			<artifactId>aModelsJPA_202404051240</artifactId>
+			<groupId>gModelsSpecifications_202404051154</groupId>
+			<artifactId>aModelsSpecifications_202404051154</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 

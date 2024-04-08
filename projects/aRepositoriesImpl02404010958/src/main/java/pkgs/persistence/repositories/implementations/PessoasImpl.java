@@ -9,7 +9,7 @@ import com.mm.models.implementations.Pessoa;
 
 import pkgs.persistence.repositories.specifications.PessoasSpec;
 
-public class PessoasImpl implements Serializable, PessoasSpec {
+public class PessoasImpl implements Serializable, PessoasSpec<Pessoa> {
 
 	private static final long serialVersionUID = 20240328032700L;
 

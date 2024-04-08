@@ -5,7 +5,8 @@ import java.util.List;
 
 import javax.persistence.EntityManager;
 
-import pkgs.persistence.models.Pessoa;
+import com.mm.models.implementations.Pessoa;
+
 import pkgs.persistence.repositories.specifications.PessoasSpec;
 
 public class PessoasImpl implements Serializable, PessoasSpec {

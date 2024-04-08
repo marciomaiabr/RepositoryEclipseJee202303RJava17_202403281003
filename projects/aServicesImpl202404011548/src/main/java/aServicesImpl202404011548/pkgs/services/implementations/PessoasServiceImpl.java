@@ -5,8 +5,9 @@ import java.util.List;
 
 import javax.inject.Inject;
 
+import com.mm.models.implementations.Pessoa;
+
 import aServicesSpec202404011523.pkgs.services.specifications.PessoasServiceSpec;
-import pkgs.persistence.models.Pessoa;
 import pkgs.persistence.repositories.specifications.PessoasSpec;
 
 public class PessoasServiceImpl implements Serializable, PessoasServiceSpec {
@@ -29,11 +30,6 @@ public class PessoasServiceImpl implements Serializable, PessoasServiceSpec {
 	@Override
 	public List<Pessoa> listar() {
 		return pessoas.list();
-	}
-
-	@Override
-	public List<Pessoa> listarPorNome(String nome) {
-		return pessoas.listByNome(nome);
 	}
 
 	@Override

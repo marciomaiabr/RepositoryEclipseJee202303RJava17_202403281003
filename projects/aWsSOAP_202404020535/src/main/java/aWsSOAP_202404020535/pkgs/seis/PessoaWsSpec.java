@@ -7,8 +7,6 @@ import javax.jws.WebService;
 import javax.jws.soap.SOAPBinding;
 import javax.jws.soap.SOAPBinding.Style;
 
-import pkgs.persistence.models.Pessoa;
-
 @WebService
 @SOAPBinding(style = Style.RPC)
 public interface PessoaWsSpec {

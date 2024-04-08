@@ -8,7 +8,6 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
 import aServicesSpec202404011523.pkgs.services.specifications.PessoasServiceSpec;
-import pkgs.persistence.models.Pessoa;
 
 @Path("pessoaRS")
 public class PessoaRest {

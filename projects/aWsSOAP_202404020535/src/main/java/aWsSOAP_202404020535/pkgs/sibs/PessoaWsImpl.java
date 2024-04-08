@@ -7,7 +7,6 @@ import javax.jws.WebService;
 
 import aServicesSpec202404011523.pkgs.services.specifications.PessoasServiceSpec;
 import aWsSOAP_202404020535.pkgs.seis.PessoaWsSpec;
-import pkgs.persistence.models.Pessoa;
 
 @WebService(endpointInterface = "aWsSOAP_202404020535.pkgs.seis.PessoaWsSpec")
 public class PessoaWsImpl implements PessoaWsSpec {

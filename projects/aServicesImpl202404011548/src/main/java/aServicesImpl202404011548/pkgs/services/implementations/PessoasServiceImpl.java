@@ -1,11 +1,14 @@
 package aServicesImpl202404011548.pkgs.services.implementations;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.inject.Inject;
 
-import com.mm.models.implementations.Pessoa;
+import com.mm.dtos.PessoaDTO;
+import com.mm.models.specifications.IPessoa;
+import com.mm.utils.DTOUtil;
 
 import aServicesSpec202404011523.pkgs.services.specifications.PessoasServiceSpec;
 import pkgs.persistence.repositories.specifications.PessoasSpec;
@@ -15,26 +18,28 @@ public class PessoasServiceImpl implements Serializable, PessoasServiceSpec {
 	private static final long serialVersionUID = 20240328032700L;
 
 	@Inject
-	private PessoasSpec pessoas;
+	private PessoasSpec<IPessoa> pessoas;
 
 	@Override
-	public Pessoa salvar(Pessoa pessoa) {
-		return pessoas.save(pessoa);
+	public PessoaDTO salvar(PessoaDTO pessoa) {
+		return DTOUtil.convertIPessoaToPessoaDTO(pessoas.save(DTOUtil.convertPessoaDTOToIPessoa(pessoa)));
 	}
 
 	@Override
-	public Pessoa buscar(Integer id) {
-		return pessoas.get(id);
+	public PessoaDTO buscar(Integer id) {
+		return DTOUtil.convertIPessoaToPessoaDTO(pessoas.get(id));
 	}
 
 	@Override
-	public List<Pessoa> listar() {
-		return pessoas.list();
+	public List<PessoaDTO> listar() {
+		List<PessoaDTO> list = new ArrayList<>();
+		pessoas.list().forEach(iPessoa -> list.add(DTOUtil.convertIPessoaToPessoaDTO(iPessoa)));
+		return list;
 	}
 
 	@Override
-	public void excluir(Pessoa pessoa) {
-		pessoas.delete(pessoa);
+	public void excluir(PessoaDTO pessoa) {
+		pessoas.delete(DTOUtil.convertPessoaDTOToIPessoa(pessoa));
 	}
 
 }

@@ -8,7 +8,6 @@ import javax.inject.Inject;
 import javax.persistence.EntityManager;
 
 import pkgs.persistence.repositories.implementations.PessoasJPA;
-import pkgs.persistence.repositories.specifications.PessoasSpec;
 
 @RequestScoped
 public class RepositoriesProducer implements Serializable {
@@ -23,7 +22,7 @@ public class RepositoriesProducer implements Serializable {
 	}
 
 	@Produces
-	public PessoasSpec createPessoasSpec() {
+	public PessoasJPA createPessoasJPA() {
 		return new PessoasJPA(entityManager);
 	}
 

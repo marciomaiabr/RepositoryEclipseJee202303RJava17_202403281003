@@ -20,7 +20,7 @@ public class EntityManagerProducer implements Serializable {
 
 	public EntityManagerProducer() {
 		System.out.println("EntityManagerProducer.()");
-		entityManagerFactory = JPAUtil.criaEntityManagerFactory("PU_NODS_JPA22_202403270735");
+		entityManagerFactory = JPAUtil.criaEntityManagerFactory("PU_DS_JPA22_202403270735");
 	}
 
 	@Produces

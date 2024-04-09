@@ -18,4 +18,12 @@ public class DTOUtil {
 		return modelMapper.map(pessoaDTO, PessoaJPA.class);
 	}
 
+	public static PessoaDTO convertPessoaJPAToPessoaDTO(PessoaJPA pessoaJPA) {
+		return modelMapper.map(pessoaJPA, PessoaDTO.class);
+	}
+
+	public static PessoaJPA convertPessoaDTOToPessoaJPA(PessoaDTO pessoaDTO) {
+		return modelMapper.map(pessoaDTO, PessoaJPA.class);
+	}
+
 }

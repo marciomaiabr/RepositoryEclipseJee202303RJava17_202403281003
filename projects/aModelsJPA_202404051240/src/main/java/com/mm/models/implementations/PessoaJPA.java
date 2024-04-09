@@ -7,10 +7,12 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 import com.mm.models.specifications.IPessoa;
 
 @Entity
+@Table(name = "Pessoa")
 public class PessoaJPA implements Serializable, IPessoa {
 
 	private static final long serialVersionUID = 20240405131200L;

@@ -6,6 +6,8 @@
   <name>nJSF22CDI20_202403280300</name>
   <description>dJSF22CDI20_202403280300</description>
 
+  <packaging>war</packaging>
+
 	<dependencies>
 
 		<dependency>
@@ -77,5 +79,15 @@
 		</dependency>
 
 	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+			    <groupId>org.apache.maven.plugins</groupId>
+			    <artifactId>maven-war-plugin</artifactId>
+			    <version>3.3.1</version>
+			</plugin>
+		</plugins>
+	</build>
 
 </project>

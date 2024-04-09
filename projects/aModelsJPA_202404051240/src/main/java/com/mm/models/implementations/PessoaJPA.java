@@ -11,7 +11,7 @@ import javax.persistence.Id;
 import com.mm.models.specifications.IPessoa;
 
 @Entity
-public class Pessoa implements Serializable, IPessoa {
+public class PessoaJPA implements Serializable, IPessoa {
 
 	private static final long serialVersionUID = 20240405131200L;
 
@@ -21,18 +21,18 @@ public class Pessoa implements Serializable, IPessoa {
 	private String nome;
 	private String sobreNome;
 
-	public Pessoa() {
+	public PessoaJPA() {
 		super();
 	}
 
-	public Pessoa(Integer id, String nome, String sobreNome) {
+	public PessoaJPA(Integer id, String nome, String sobreNome) {
 		super();
 		this.id = id;
 		this.nome = nome;
 		this.sobreNome = sobreNome;
 	}
 
-	public Pessoa(String nome, String sobreNome) {
+	public PessoaJPA(String nome, String sobreNome) {
 		super();
 		this.nome = nome;
 		this.sobreNome = sobreNome;
@@ -64,7 +64,7 @@ public class Pessoa implements Serializable, IPessoa {
 
 	@Override
 	public String toString() {
-		return "Pessoa [id=" + id + ", nome=" + nome + ", sobreNome=" + sobreNome + "]";
+		return "PessoaJPA [id=" + id + ", nome=" + nome + ", sobreNome=" + sobreNome + "]";
 	}
 
 	@Override
@@ -80,7 +80,7 @@ public class Pessoa implements Serializable, IPessoa {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Pessoa other = (Pessoa) obj;
+		PessoaJPA other = (PessoaJPA) obj;
 		return Objects.equals(id, other.id);
 	}
 

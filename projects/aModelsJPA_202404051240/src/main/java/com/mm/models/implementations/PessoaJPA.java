@@ -11,7 +11,7 @@ import javax.persistence.Table;
 
 import com.mm.models.specifications.IPessoa;
 
-@Entity
+@Entity(name = "Pessoa")
 @Table(name = "Pessoa")
 public class PessoaJPA implements Serializable, IPessoa {
 

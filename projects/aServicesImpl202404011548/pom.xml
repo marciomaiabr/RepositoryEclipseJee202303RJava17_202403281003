@@ -41,6 +41,11 @@
 			<artifactId>aRepositoriesImpl02404010958</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+		<dependency>
+			<groupId>gDTOs_202404090323</groupId>
+			<artifactId>aDTOs_202404090323</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 
 </project>

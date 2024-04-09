@@ -4,7 +4,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 
-import com.mm.models.implementations.Pessoa;
+import com.mm.models.implementations.PessoaJPA;
 
 import aJPA22_202403270735.pkgs.utils.JPAUtil;
 
@@ -27,7 +27,7 @@ public class Exe04 {
 
 			et.begin();
 
-			em.persist(new Pessoa("Ciclano " + java.time.LocalDate.now(), "Reis " + java.time.LocalTime.now()));
+			em.persist(new PessoaJPA("Ciclano " + java.time.LocalDate.now(), "Reis " + java.time.LocalTime.now()));
 
 			et.commit();
 		} catch (Exception e) {

@@ -1,0 +1,2 @@
+*Jakarta Persistence 3.1
+*Hibernate ORM 6.4 series

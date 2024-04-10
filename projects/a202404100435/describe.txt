@@ -1,4 +1,4 @@
-*JSF23
-*Jakartaee10
-*JakartaFaces40
-*CDI40
+JSF23
+Jakartaee10
+JakartaFaces40
+CDI40

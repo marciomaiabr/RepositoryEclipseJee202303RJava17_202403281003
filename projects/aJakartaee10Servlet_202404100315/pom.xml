@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>gJakartaee10Servlet_202404100315</groupId>
+  <artifactId>aJakartaee10Servlet_202404100315</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>nJakartaee10Servlet_202404100315</name>
+  <description>dJakartaee10Servlet_202404100315</description>
+
+	<properties>
+		<jakartaee-api.version>10.0.0</jakartaee-api.version>
+	</properties>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>jakarta.platform</groupId>
+			<artifactId>jakarta.jakartaee-api</artifactId>
+			<version>${jakartaee-api.version}</version>
+			<scope>provided</scope>
+		</dependency>
+
+	</dependencies>
+
+</project>

@@ -1,10 +1,10 @@
 cls
-del describes.txt
+del describesMM.txt
 for /D %%J in (".\*") do (
-  echo %%J >> describes.txt
-  more %%J\describe.txt >> describes.txt
-  dir /b /s %%J\target\classes\*.class >> describes.txt
-  echo - >> describes.txt
+  echo %%J >> describesMM.txt
+  more %%J\describe.txt >> describesMM.txt
+  dir /b /s %%J\target\classes\*.class >> describesMM.txt
+  echo - >> describesMM.txt
 )
-start "" "describes.txt"
+start "" "describesMM.txt"
 close

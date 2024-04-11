@@ -1,0 +1,38 @@
+
+11/04/2024 12:05
+	*checar os "XML namespace" dos arquivos ".xhtml"
+	*a declaração xmlns="http://www.w3.org/1999/xhtml" é necessária?
+	*o eclipse acusa "Can't find facelet tag library for uri jakarta.faces.html" na declaração xmlns:h="jakarta.faces.html"
+		*mesmo com a dependência "Maven coordinates"->"jakarta.faces:jakarta.faces-api:jar:4.0.1"
+		*mesmo com a dependência "Maven coordinates"->"jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:jar:3.0.0"
+	*declaração "f" apontando para "core"
+		*qual o correto xmlns:f="jakarta.faces.core" ou xmlns:f="jakarta.tags.core" ?
+	*referências:
+		https://jakarta.ee/specifications/faces/
+		https://jakarta.ee/specifications/faces/4.0/
+		https://jakarta.ee/specifications/faces/4.0/jakarta-faces-4.0
+		https://jakarta.ee/specifications/tags/
+		https://jakarta.ee/specifications/tags/3.0/
+		https://jakarta.ee/specifications/faces/3.0/jakarta-faces-3.0
+
+		https://github.com/jakartaee/faces/issues/1553
+		https://github.com/jakartaee/faces/issues/1526
+		https://github.com/jakartaee/tags/issues/144
+		https://github.com/eclipse-ee4j/mojarra/issues/4775
+		https://github.com/jakartaee/faces/issues/1169
+		https://github.com/OpenLiberty/open-liberty/issues/24606
+
+		https://bugs.eclipse.org/bugs/show_bug.cgi?id=580851
+		https://openliberty.io/docs/latest/reference/diff/jakarta-ee10-diff.html
+		https://stackoverflow.com/questions/68438669/what-are-the-namespaces-for-h-f-in-a-jsf-page-for-jakarta-ee-9
+		https://itnext.io/an-introduction-to-jakarta-faces-4-0-by-examples-d949a7093236
+		https://blog.payara.fish/a-quick-look-at-faces-jsf-4.0-in-jakarta-ee-10
+
+		https://repo1.maven.org/maven2/org/glassfish/jakarta.faces/4.0.4/
+		https://repo1.maven.org/maven2/org/glassfish/jakarta.faces/4.0.6/
+
+		https://mvnrepository.com/artifact/org.glassfish/jakarta.faces/4.0.6
+		https://mvnrepository.com/artifact/jakarta.faces/jakarta.faces-api/4.0.1
+
+		Repositories
+			https://github.com/javaeekickoff/java-ee-kickoff-app/tree/master

@@ -1,4 +1,4 @@
-package com.mm.models.implementations;
+package com.mm.models;
 
 import java.io.Serializable;
 import java.util.Objects;

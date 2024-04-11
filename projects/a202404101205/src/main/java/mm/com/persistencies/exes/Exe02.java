@@ -1,6 +1,6 @@
 package mm.com.persistencies.exes;
 
-import com.mm.models.implementations.PessoaJPA;
+import com.mm.models.PessoaJPA;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;

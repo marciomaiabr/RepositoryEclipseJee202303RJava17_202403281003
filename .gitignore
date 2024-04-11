@@ -1,6 +1,8 @@
 # Compiled class file
 *.class
 
+describesMM.txt
+
 target/
 */target/*
 */target/**
